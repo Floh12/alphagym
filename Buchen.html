@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <title>Gym</title>
+        <link rel="stylesheet" href="Alphagym.css" />
+    </head>
+    <body class="grey">
+
+        <p class="homepage-btn"><a href="Homepage,index.html">Homepage</a></p>
+
+        <h1>Buchen</h1>
+
+        <form action="/submit_service_request" method="POST">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Straße, Hausnummer:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">PLZ, Stadt:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service_type">Zahlung:</label>
+            <select id="service_type" name="service_type" required>
+                <option value="mitgliedschaft">Paypal</option>
+                <option value="trainingsplan">Bank</option>
+                <option value="personal_trainer">Bitcoin</option>
+                <option value="andere">Aktien</option>
+            </select>
+
+            <button type="submit">Zahlen</button>
+        </form>
+        <div class="middle-links">
+            <a href="Geschäftszeiten.html">Geschäftszeiten</a>
+            <a href="Preise.html">Preise</a>
+            <a href="Service.html">Service</a>
+            <a href="Trainer*innen.html">Trainer*innen</a>
+            <a href="Kontakt.html">Kontakt</a>
+        </div>
+
+        <div class="info-box">
+            <a href="über uns.html">Über uns</a>
+            <a href="Impressum.html">Impressum</a>
+            <a href="Datenschutz.html">Datenschutzerklärung</a>
+            <a href="Information.html">Information</a>
+        </div>
+    </body>
+</html>
