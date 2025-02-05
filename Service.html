@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <title>Gym</title>
+    <link rel="stylesheet" href="Alphagym.css" />
+</head>
+<body class="ym">
+
+    <p class="homepage-btn"><a href="Homepage,index.html">Homepage</a></p>
+
+    <h1>Service</h1>
+
+    <form action="/submit_service_request" method="POST">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail-Adresse:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Telefonnummer:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service_type">Art der Anfrage:</label>
+        <select id="service_type" name="service_type" required>
+            <option value="mitgliedschaft">Mitgliedschaft</option>
+            <option value="trainingsplan">Trainingsplan</option>
+            <option value="personal_trainer">Personal Trainer</option>
+            <option value="andere">Andere</option>
+        </select>
+
+        <label for="message">Beschreibung der Anfrage:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label>
+            <input type="checkbox" id="privacy" name="privacy" required>
+            Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.
+        </label>
+
+        <button type="submit">Absenden</button>
+    </form>
+
+        <div class="middle-links">
+            <a href="Geschäftszeiten.html">Geschäftszeiten</a>
+            <a href="Kursangebot.html">Kursangebot</a>
+            <a href="Preise.html">Preise</a>
+            <a href="Trainer*innen.html">Trainer*innen</a>
+            <a href="Kontakt.html">Kontakt</a>
+        </div>
+
+    <div class="info-box">
+        <a href="Über uns.html">Über uns</a>
+        <a href="Impressum.html">Impressum</a>
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+        <a href="Information.html">Information</a>
+    </div>
+</body>
+</html>
