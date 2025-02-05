@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <title>Gym</title>
+    <link rel="stylesheet" href="Alphagym.css" />
+</head>
+<body class="bg">
+    <h1><span class="special-title">Alphagym</span></h1>
+    <p>
+        Willst du wie echte Männer gegen Bären kämpfen können, wie Putin? Bewunderst du auch die maskulinen, schwitzigen und voller Testosteron gepumpten Körper von Gladiatoren? Dann sei keine Pussy und melde dich noch heute bei uns an. Wir sind ein Team aus echten Alphas, die dir beibringen, ein echter Kerl zu werden. Schmerz führt zum Erfolg! Das ist unser Motto. Check mal unsere <a href="Kursangebot.html">Kursangebote</a> aus. Zerreiß dir dein Shirt und fang an!</p>
+
+   <div class="middle-links">
+    <a href="Geschäftszeiten.html">Geschäftszeiten</a>
+    <a href="Preise.html">Preise</a>
+    <a href="Service.html">Service</a>
+    <a href="Trainer*innen.html">Trainer*innen</a>
+    <a href="Kontakt.html">Kontakt</a>
+</div>
+
+    <div class="info-box">
+        <a href="über uns.html">Über uns</a>
+        <a href="Impressum.html">Impressum</a>
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+        <a href="Information.html">Information</a>
+    </div>
+</body>
+</html>
